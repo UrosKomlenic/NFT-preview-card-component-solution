@@ -1,0 +1,126 @@
+/*********************TAG SELECTORS*******************/
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+
+h2 {
+  color: white;
+  font-family: 'Outfit';
+  font-weight: 600;
+}
+
+h2:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+hr {
+  width: 90%;
+  border-color: hsl(215, 51%, 70%);
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
+span {
+  color: white;
+}
+
+span:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+/*********************CLASS SELECTORS*******************/
+.panel {
+  background-color: hsl(216, 50%, 16%);
+  height: 550px;
+  width: 300px;
+  border-radius: 20px;
+  margin: 200px auto;
+  position: relative;
+  padding: 5px;
+  box-shadow: 0px 20px 20px 13px #080f1a75;
+}
+
+.equil {
+  height: 260px;
+  width: 270px;
+  border-radius: 8px;
+  position: relative;
+  top: 15px;
+  left: 15px;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 270px;
+  height: 260px;
+  border-radius: 8px;
+  background: hsl(178, 100%, 50%, .5);
+  opacity: 0;
+}
+
+.overlay:hover {
+  opacity: 1;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.view {
+  position: absolute;
+  top: 110px;
+  left: 110px;
+}
+
+.inside-panel {
+  padding: 15px;
+  position: relative;
+}
+
+.p1 {
+  color: hsl(215, 51%, 70%);
+  font-family: 'Outfit';
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.p2 {
+  color: hsl(178, 100%, 50%);
+  font-family: 'Outfit';
+  font-weight: 600;
+  display: inline;
+}
+
+.p3 {
+  display: inline;
+  position: relative;
+  left: 75px;
+  color: hsl(215, 51%, 70%);
+  font-family: 'Outfit';
+  font-weight: 400;
+}
+
+.ether {
+  margin-right: 4px;
+}
+
+.p4 {
+  font-family: 'Outfit';
+  color: hsl(215, 51%, 70%);
+  font-size: 16px;
+  padding: 5px;
+}
+
+.avatar {
+  width: 30px;
+  border: 1px solid;
+  border-color: white;
+  border-radius: 50%;
+  margin-left: 15px;
+  margin-right: 15px;
+  float: left;
+}
